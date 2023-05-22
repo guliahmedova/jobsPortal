@@ -533,6 +533,97 @@ section {
     transform: scaleY(1);
     transition: 0.2s linear;
 }
+/*Job Details Start*/
+.job-details .details {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    border: var(--border);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+.job-details .details h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.job-details .details .job-info a {
+    display: block;
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    color: var(--main-color);
+}
+.job-details .details .job-info a:hover {
+    text-decoration: underline;
+}
+.job-details .details .job-info p {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+.job-details .details .job-info .location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.job-details .details .basic-details {
+    background-color: var(--light-bg);
+    margin: 1.5rem 0;
+    break-inside: 0.5rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+.job-details .details .basic-details p {
+    color: var(--light-color);
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.job-details .details ul {
+    margin: 1rem 0;
+}
+.job-details .details ul li {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    text-transform: capitalize;
+    margin-left: 3rem;
+}
+.job-details .details .description {
+    margin-top: 1.5rem;
+}
+.job-details .details .description p {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.job-details .details .save {
+    background-color: var(--light-bg);
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+.job-details .details .save:hover {
+    background-color: var(--black);
+}
+.job-details .details .save:hover i {
+    color: var(--white);
+}
+.job-details .details .save:hover span {
+    color: var(--white);
+}
+.job-details .details .save i {
+    margin-right: 0.5rem;
+    color: var(--black);
+}
+.job-details .details .save span {
+    color: var(--light-color);
+}
 /*Media Queries*/
 @media only screen and (max-width: 991px) {
     html {
