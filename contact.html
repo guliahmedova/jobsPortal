@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <!--Header Starts-->
     <header class="header">
         <section class="flex">
@@ -33,6 +32,50 @@
     </header>
     <!--Header Ends-->
 
+    <!--Contact Us Section Starts-->
+    <div class="section-title">contact us</div>
+    <section class="contact">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-map-marked-alt"></i>
+                <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <a href="tel:939498348">050-849-98-93</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-mail-bulk"></i>
+                <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+        </div>
+        <form action="#" method="post">
+            <h3>drop ypur message</h3>
+            <div class="flex">
+                <div class="box">
+                    <label for="name">Name*</label>
+                    <input type="text" name="name" id="name" required maxlength="20" class="input"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="box">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required maxlength="50" class="input"
+                        placeholder="Enter Your Email">
+                </div>
+                <div class="box">
+                    <label for="role">Role*</label>
+                    <select name="role" id="role" required class="input">
+                        <option value="employee">job seeker (employee)</option>
+                        <option value="employeer">job provider (employeer)</option>
+                    </select>
+                </div>
+            </div>
+            <label for="message">Message*</label>
+            <textarea name="message" id="message" class="input" required maxlength="1000" placeholder="enter your message"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+    </section>
+    <!--Contact Us Section Ends-->
 
     <!--Footer Starts-->
     <footer class="footer">
@@ -66,7 +109,6 @@
         <div class="credit">&copy; copyright @2023 by <span>mr. web designer</span>| all rights reserved!</div>
     </footer>
     <!--Footer Ends-->
-
     <script src="./js/script.js"></script>
 </body>
 
